@@ -1,0 +1,31 @@
+.authContainer {
+  -webkit-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      145deg,
+      hsl(276deg 82% 58%) 0%,
+      hsl(273deg 71% 54%) 8%,
+      hsl(271deg 61% 51%) 17%,
+      hsl(269deg 59% 47%) 25%,
+      hsl(266deg 59% 43%) 33%,
+      hsl(264deg 59% 39%) 42%,
+      hsl(261deg 59% 35%) 50%,
+      hsl(258deg 59% 32%) 58%,
+      hsl(256deg 60% 28%) 67%,
+      hsl(252deg 61% 24%) 75%,
+      hsl(249deg 63% 20%) 83%,
+      hsl(246deg 66% 16%) 92%,
+      hsl(250deg 83% 12%) 100%
+    );
+}
+
+
+  

@@ -1,0 +1,51 @@
+
+.dataBlockStatistics{
+    width: 100%;
+}
+.statisticsStandardBlock h2{
+    align-self: flex-start;
+    margin: 0;
+}
+.nomargin{
+    margin: 0;
+}
+.statisticsContentBlock {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+  }
+  .statsItem {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1rem;
+  }
+  
+  .statsItem:last-child {
+    border-bottom: none;
+  }
+  
+  .statsTitle {
+    font-weight: 600;
+    color: #333;
+  }
+  
+
+  .statsValue {
+    color: #8000ff;
+    font-weight: 500;
+    max-width: 500px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+    hyphens: manual;
+  }
+  

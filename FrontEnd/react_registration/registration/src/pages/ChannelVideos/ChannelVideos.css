@@ -1,0 +1,74 @@
+
+.video-grid-channel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    margin-top: 10px;
+}
+@media (max-width: 850px) {
+    .video-grid-channel {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 1200px) {
+    .video-grid-channel {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+    .video-grid-channel {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1700px) {
+    .video-grid-channel {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+.sortFilterBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    position: relative;
+}
+
+.sortFilterBlock .filterImg{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.filterContainerChannel{
+    opacity: 0;
+    top: 50px;
+    right: 0px;
+    width: 600px;
+    position: absolute;
+    border-radius:10px;
+    background-color: rgb(237, 236, 236);
+    font-size: 12px;
+    transition: opacity 0.15s;
+    padding: 10px;
+    overflow: hidden;
+    z-index: 200;
+    pointer-events: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.617);
+    display: flex;
+    flex-direction: column;
+}
+
+.filterContainerChannel.open{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.filterContainerChannel .filterRow{
+    justify-content: space-around;
+}

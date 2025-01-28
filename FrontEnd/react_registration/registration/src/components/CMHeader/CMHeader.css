@@ -1,0 +1,107 @@
+.videoCreationForm{
+    width: 45vw;
+    height: 80vh;
+    margin: 30px;
+    overflow-y: auto;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.617);
+    border: 1px solid black;
+}
+
+.videoCreationForm h2{
+    margin-bottom: 50px;
+}
+
+.buttonContCM{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.buttonContCM button{
+    width: 100px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin: 0px 10px;
+    background-color: transparent;
+    color: #000000;
+}
+
+
+.buttonContCM button:hover{
+    border: 2px solid #6f00ff;
+}
+
+
+.head{
+    width: 100%;
+    padding: 0 40px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(162, 162, 162);
+}
+
+.head h3{
+    margin: 0;
+    font-weight: 500;
+}
+
+.head img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.head img:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.uploadingForm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 14px 14px;
+    
+}
+
+.uploadingForm .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uploadingForm.dragging .info {
+    pointer-events: none;
+}
+
+
+.info img{
+    width: 200px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.info h5{
+    margin: 0;
+}
+
+.dragging{
+    background-color: #6f00ff1e;
+    border: 3px solid #6f00ff;
+}
+
+.uploadingForm.dragging .info img{
+    width: 250px;
+}
+
+

@@ -1,0 +1,41 @@
+.contentPanel{
+    width: 100%;
+    display: flex;
+    padding: 15px 0;
+    padding-bottom: 0;
+    flex-direction: column;
+    position: relative;
+    max-width: 100vw;
+}
+.contentPanel h2{
+    margin: 0;
+    margin: 15px;
+    margin-left: 35px;
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navDivs{
+    display: flex;
+    margin: 0;
+    margin: 15px;
+    width: 500px;
+    justify-content: start;
+}
+
+.navDiv{
+    font-size: 18px;
+    cursor: pointer;
+    color: gray;
+    padding-bottom: 3px;
+    margin-left: 30px;
+}
+
+.navDiv:hover{
+    border-bottom: 3px solid gray;
+    padding-bottom: 0px;
+}
+
+.navDiv.selected{
+    color: black;
+    border-bottom: 3px solid black;
+    padding-bottom: 0px;
+}

@@ -1,0 +1,241 @@
+.responsive-table{
+    width: 100%;
+    padding: 0 10px;
+    margin: 0;
+}
+.responsive-table li {
+    border-radius: 10px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.contentTable{
+    height: calc(100vh - 278px);
+    overflow-y: scroll;
+}
+.responsive-table .table-header {
+    background-color: #5017ab;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 23px 0;
+    margin-left: 10px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+
+.table-header div{
+    cursor: pointer;
+}
+
+.table-row{
+    margin: 10px;
+}
+.responsive-table .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.161);
+}
+
+.responsive-table .col-1 {
+    flex-basis: 7%;
+}
+
+.responsive-table .col-2 {
+    flex-basis: 12%;
+    padding-right: 10px;
+    max-width: 240px;
+}
+.responsive-table .col-3 {
+    flex-basis: 8.5%;
+}
+.responsive-table .col-4 {
+    flex-basis: 3%;
+}
+.col{
+    flex: 1; 
+    padding: 0 20px; 
+    justify-content: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+
+}
+.table-header .col{
+    opacity: 0.7;
+    color: white;
+    font-weight: 600;    
+    font-size: 14px;
+}
+
+.table-header .col.ignore-opacity{
+    opacity: 1;
+}
+
+.table-header .col.selected{
+    opacity: 1;
+}
+.table-header .col:hover{
+    opacity: 1;
+}
+
+.textalgn{
+    justify-content: flex-start;
+}
+
+.arrowImg{
+    width: 12px;
+    margin-left: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.arrowImg.selected{
+    transform: rotate(180deg);
+}
+
+.filterImg{
+    width: 25px;
+}
+
+
+.ignore:hover{
+    cursor: default;
+}
+
+
+
+.filterContainer{
+    opacity: 0;
+    top: 210px;
+    right: 60px;
+    width: 600px;
+    position: absolute;
+    border-radius:10px;
+    background-color: rgb(237, 236, 236);
+    font-size: 12px;
+    transition: opacity 0.15s;
+    padding: 10px;
+    overflow: hidden;
+    z-index: 200;
+    pointer-events: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.617);
+    display: flex;
+    flex-direction: column;
+}
+
+.filterContainer.open{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.filterRow{
+    padding: 0 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.filterOption {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.filterOption:hover {
+    opacity: 1;
+    font-weight: 500;
+}
+
+.filterOption.selectedFilter {
+    color: #6200ff;
+    text-shadow: 0px 0px 1px #6200ff;
+    opacity: 1;
+}
+.headerName{
+    font-weight: 800;
+    border-bottom: 1px solif gray;
+    cursor: default;
+}
+
+
+
+.filterRowBtns{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.filterRowBtns button{
+    margin: 0;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    font-size: 13px;
+}
+
+
+select {
+    appearance: none;
+    outline: 10px red;
+    border: 0;
+    box-shadow: none;
+    flex: 1;
+    padding: 0 1em;
+    background-color: var(gray);
+    background-image: none;
+    cursor: pointer;
+  }
+
+  select::-ms-expand {
+    display: none;
+  }
+
+  .select {
+    position: relative;
+    display: flex;
+    width: 150px;
+
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+    border: 1px solid #6200ff;
+  }
+ 
+  .inactive{
+    opacity: 0.5;
+    border: none;
+  }
+
+  .inactive:hover{
+    opacity: 0.8;
+    border: none;
+  }
+
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #ffffff;
+    transition: .25s all ease;
+    pointer-events: none;
+  }
+
+  .select:hover::after {
+    color: #6200ff;
+  }
+  
+  .select option {
+  background-color: whitesmoke;
+  color: #333;
+  font-size: 13px;
+  padding: 10px;
+
+  border-radius: 0;
+}
+.select option:hover {
+  background-color: #6200ff;
+  color: #fff;
+}

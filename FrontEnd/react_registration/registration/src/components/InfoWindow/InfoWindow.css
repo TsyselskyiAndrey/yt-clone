@@ -1,0 +1,11 @@
+.link{
+    cursor: pointer;
+}
+
+.lingUnderline{
+    border-bottom: 2px solid #6f00ff;
+}
+
+.lingUnderline:hover{
+    color: #6f00ff;
+}

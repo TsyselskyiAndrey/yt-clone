@@ -1,0 +1,16 @@
+.CMContainer{
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.CMContainer main{
+    margin: 0;
+    padding: 0;
+    height: calc(100vh - 60px); 
+    flex: 1;
+    margin-left: 4px;
+    margin-top: 60px;
+    display: flex;
+    background-color: white;
+}

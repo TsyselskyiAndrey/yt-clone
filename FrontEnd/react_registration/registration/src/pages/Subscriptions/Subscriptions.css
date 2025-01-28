@@ -1,0 +1,12 @@
+.subscriptionHeader{
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.subscriptionHeader h2{
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

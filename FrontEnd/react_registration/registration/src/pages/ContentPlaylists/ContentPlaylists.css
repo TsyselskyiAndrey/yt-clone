@@ -1,0 +1,52 @@
+.responsive-table .col-5 {
+    flex-basis: 5%;
+}
+
+.responsive-table .col-6 {
+    flex-basis: 10%;
+}
+.responsive-table .col-7 {
+    flex-basis: 20%;
+    max-width: 357px;
+}
+.responsive-table .col-8 {
+    flex-basis: 15%;
+}
+
+.createPlaylistBtn{
+    outline: none;
+    background-color: rgb(224, 211, 255);
+    border: none;
+    font-size: 15px;
+    margin: 0;
+    padding: 2px 15px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+}
+
+.createPlaylistBtn:hover{
+    background-color: #5017ab;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.playlistCreationForm{
+    width: 39vw;
+    height: 58vh;
+    margin: 30px;
+    overflow-y: auto;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.617);
+    border: 1px solid black;
+}
+
+.playlistCreationForm h2{
+    margin-bottom: 50px;
+}

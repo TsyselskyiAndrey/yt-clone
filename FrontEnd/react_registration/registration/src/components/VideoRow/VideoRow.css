@@ -1,0 +1,55 @@
+.removeBtn, .editBtn, .statsBtn{
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0;
+}
+.removeBtn{
+    background-image: url("../resources/recycle-bin.png");
+}
+.removeBtn:hover{
+    background-image: url("../resources/recycle-bin-active.png");
+}
+.editBtn{
+    background-image: url("../resources/edit-active.png");
+}
+.editBtn:hover{
+    background-image: url("../resources/edit.png");
+}
+
+.statsBtn{
+    background-image: url("../resources/chart.png");
+}
+
+.statsBtn:hover{
+    background-image: url("../resources/chart_active.png");
+}
+
+
+.col .previewImg {
+    border-radius: 10px;
+    border: 2px solid rgb(144, 0, 255);
+    width: 100%;
+    aspect-ratio: 16/9.3;
+    object-fit: contain;
+}
+
+.visibilityImg{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    
+    object-fit: cover;
+}
+
+.functionalBtns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}

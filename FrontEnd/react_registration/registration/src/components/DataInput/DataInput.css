@@ -1,0 +1,102 @@
+.coolinput {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: static;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input::selection {
+    background-color: rgb(111, 0, 255);
+    color: white;
+}
+
+textarea::selection {
+    background-color: rgb(111, 0, 255);
+    color: white;
+}
+
+.coolinput label.text {
+    font-size: 0.78rem;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    top: -5px;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: #e8e8e800;
+    width: fit-content;
+}
+
+.coolinput:focus-within label.text {
+    color: #7b00ff;
+}
+
+.coolinput:focus-within input[type=text] {
+    border: 2px #8000ff solid;
+    
+}
+
+.coolinput:focus-within textarea {
+    border: 2px #8000ff solid;
+    
+}
+
+.coolinput input[type=text] {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #00000044 solid;
+    border-radius: 5px;
+    background: none;
+}
+
+
+.coolinput textarea {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #00000044 solid;
+    border-radius: 5px;
+    background: none;
+    font-family: sans-serif;
+    resize: none;
+    height: 150px;
+}
+
+.coolinput textarea:focus {
+    outline: none;
+}
+
+.coolinput input[type=text]:focus {
+    outline: none;
+}
+
+.coolinput textarea:hover:not(:focus) {
+    border: 2px #000000 solid;
+}
+
+.coolinput input[type=text]:hover:not(:focus) {
+    border: 2px #000000 solid;
+}
+
+
+.errorMessage{
+    color: crimson;
+    font-size: small;
+    display: inline-block;
+    margin-top: 6px;
+    max-width: 320px;
+    text-wrap: wrap;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.shake {
+    animation: shake 0.3s ease-in-out;
+}

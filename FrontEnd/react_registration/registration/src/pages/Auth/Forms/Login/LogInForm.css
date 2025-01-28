@@ -1,0 +1,62 @@
+.googleLogo {
+    width: 37px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.googleLogin {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    font-size: 22px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(28, 28, 28);
+}
+.googleLogin:disabled,
+.googleLogin[disabled]{
+    cursor: not-allowed;
+    background-color: #e6e4e4;
+    color: #6b6b6b;
+}
+.googleLogin:not(:disabled):hover {
+    background-color: #e1e0e0;
+    border: 2px solid black;
+}
+
+.googleLogin:not(:disabled):active {
+    background-color: whitesmoke;
+}
+
+.divider {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    max-width: 320px;
+    margin: 2px;
+    color: #7a7a7a;
+    justify-content: center;
+}
+
+.line {
+    height: 50%;
+    flex: 1;
+    border-bottom: 2px solid #7a7a7a;
+}
+
+
+.logInElem {
+    filter: blur(0px);
+    left: 0%;
+    transition: left 1.1s ease, filter 1.1s ease, color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.logInElemAnim {
+    filter: blur(10px);
+    left: -100%;
+    transition: left 1.1s ease, filter 1.1s ease, color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}

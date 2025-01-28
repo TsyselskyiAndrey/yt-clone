@@ -1,0 +1,126 @@
+.sidebarCM {
+    top: 56px;
+    background-color: whitesmoke;
+    width: 72px;
+    min-width: 72px;
+    z-index: 200;
+    padding-top: 1px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.sidebarLinkCM {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: start;
+    transition: all 0.3s ease-in-out;
+    transition: background-color 0s ease-in-out;
+}
+
+.chosen {
+    background-color: rgb(207, 207, 207);
+}
+
+.sidebarLinkCM:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.sidebarLinkCM img {
+    height: 24px;
+    margin-left: 24px;
+    transition: transform 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+}
+
+.sidebarLinkCM p {
+    margin-left: 30px;
+    font-size: 17px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+}
+
+.sidebarCM.open {
+    width: 220px;
+    min-width: 220px;
+}
+
+.sidebarCM.open p {
+    opacity: 1;
+
+}
+
+.avatar {
+    height: 50px;
+    margin: 10px 8px;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    cursor: pointer;
+    align-items: start;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.avatar img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sidebarCM.open .avatar {
+    justify-content: center;
+    align-items: start;
+    height: 200px;
+    margin: 0 40px;
+    position: relative;
+    padding: 20px;
+}
+
+
+.sidebarCM.open .avatar img:hover{
+    border: 3px solid rgb(138, 24, 245);
+}
+
+.avatar img:hover{
+    border: 1px solid rgb(138, 24, 245);
+}
+
+.channelInfo {
+    opacity: 0; 
+    z-index: 50;
+    overflow: hidden; 
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    top: 150px;
+    width: 220px;
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+}
+
+.sidebarLinks{
+    position: relative;
+    margin-top: 0px;
+    background-color: whitesmoke;
+    z-index: 100;
+    transition: all 0.3s ease-in-out;
+}
+.sidebarCM.open .sidebarLinks{
+    margin-top: 20px;
+}
+.sidebarCM.open .channelInfo {
+    opacity: 1;
+    margin-bottom: 20px;
+
+}
+.channelInfo h4{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.channelInfo p {
+    margin: 0;
+}

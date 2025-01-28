@@ -1,0 +1,134 @@
+.inp {
+    position: relative;
+    margin: 9px 10px 0px 10px;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 3px;
+}
+
+.inp .label {
+    position: absolute;
+    top: 27px;
+    left: 1px;
+    font-size: 18px;
+    color: rgba(0, 0, 0);
+    opacity: 0.5;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.inp input {
+    background-color: whitesmoke;
+    appearance: none;
+    width: 100%;
+    border: 0;
+    padding: 16px 12px 0 2px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.77);
+    color: #000;
+    transition: all 0.15s ease;
+}
+
+
+.inp input::selection {
+    background-color: rgb(111, 0, 255);
+    color: white;
+}
+
+.inp input:not(:placeholder-shown)+.label {
+    color: rgba(0, 0, 0);
+    opacity: 0.5;
+    transform-origin: left;
+    transform: translate3d(0, -27px, 0) scale(0.90);
+}
+
+.inp input:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 #6f01ff;
+}
+
+.inp input:focus+.label {
+    color: #6f00ff;
+    opacity: 1;
+    transform-origin: left;
+    transform: translate3d(0, -27px, 0) scale(0.90);
+}
+
+.errorMessage{
+    color: crimson;
+    font-size: small;
+    display: inline-block;
+    margin-top: 6px;
+    max-width: 320px;
+    text-wrap: wrap;
+}
+.codeError{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.showPassword{
+    position: absolute;
+    width: 27px;
+    top: 30px;
+    right: 10px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.showPassword:hover{
+    opacity: 0.8;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.shake {
+    animation: shake 0.3s ease-in-out;
+}
+
+.verifyInfo{
+    position: relative;
+    width: 100%;
+    padding: 0px 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.codeContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 350px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.codeNum{
+    width: 15%;
+    height: 65px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+.codeNum:focus{
+    border: 2px solid #6f00ff;
+    outline: none;
+}
+.codeNum.error{
+    border: 2px solid crimson;
+    outline: none;
+}
+.codeNum:focus.error{
+    border: 2px solid crimson;
+    outline: none;
+}

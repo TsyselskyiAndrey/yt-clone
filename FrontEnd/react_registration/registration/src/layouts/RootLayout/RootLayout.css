@@ -1,0 +1,15 @@
+.HomeContainer {
+    overflow: hidden;
+}
+
+.HomeContainer main{
+    margin: 0;
+    padding: 0;
+    height: calc(100vh - 60px); 
+    width: calc(100vw - 76px);
+    margin-left: 76px;
+    margin-top: 60px;
+    display: flex;
+    background-color: white;
+}
+

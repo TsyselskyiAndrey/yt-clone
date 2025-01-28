@@ -1,0 +1,458 @@
+.editForm {
+    overflow-y: auto;
+    width: 100%;
+}
+
+.editContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.dataBlock {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    height: 100%;
+
+}
+
+.videoBlock {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.standardInfoBlock {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 40px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.standardInfoBlock h3 {
+    align-self: center;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #4200ad;
+    font-style: italic;
+}
+
+.editFormButtonCont {
+    width: 100%;
+    justify-self: end;
+    display: flex;
+    justify-content: end;
+
+}
+
+.editFormBtn {
+    font-size: 13px;
+    padding: 5px;
+    height: 35px;
+    margin: 5px;
+    width: 100px;
+}
+
+.resetbtn {
+    background-color: white;
+    color: black;
+}
+
+
+.categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-radius: 8px;
+}
+
+.category-card {
+    padding: 10px 20px;
+    background: linear-gradient(145deg,
+            hsl(276deg 82% 58%) 0%,
+            hsl(273deg 71% 54%) 8%,
+            hsl(271deg 61% 51%) 17%,
+            hsl(269deg 59% 47%) 25%,
+            hsl(266deg 59% 43%) 33%,
+            hsl(264deg 59% 39%) 42%,
+            hsl(261deg 59% 35%) 50%,
+            hsl(258deg 59% 32%) 58%,
+            hsl(256deg 60% 28%) 67%,
+            hsl(252deg 61% 24%) 75%,
+            hsl(249deg 63% 20%) 83%,
+            hsl(246deg 66% 16%) 92%,
+            hsl(250deg 83% 12%) 100%);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    transform-origin: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+
+.category-card:hover {
+    transform: scale(1.05);
+    border: 1px solid crimson;
+    color: crimson;
+    background: transparent;
+    z-index: 1;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.category-card img {
+    width: 10px;
+    position: absolute;
+    top: -9px;
+    right: -9px;
+}
+
+.editCategorySelect {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+    border: 1px solid #6200ff;
+}
+
+.editCategorySelect select {
+    font-size: 16px;
+}
+
+.inactive_edit {
+    opacity: 0.5;
+}
+
+.inactive_edit:hover {
+    opacity: 1;
+}
+
+.categoryAddContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.categoryAddContainer button,
+.addTagContainder button {
+    height: 40px;
+    width: 80px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+
+.editCategorySelect::after {
+    content: '\261F';
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 30px;
+    background-color: #ffffff;
+    transition: .25s all ease;
+    pointer-events: none;
+}
+
+.editCategorySelect:hover::after {
+    color: #6200ff;
+}
+
+.editCategorySelect option {
+    background-color: whitesmoke;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.editCategorySelect option:hover {
+    background-color: #6200ff;
+    color: #fff;
+
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    position: sticky;
+    top: 20px;
+}
+
+.videoContainer video {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #929292;
+    width: 90%;
+    height: auto;
+    max-height: 325px;
+    min-height: 320px;
+    object-fit: contain;
+    align-self: center;
+}
+
+.addTagContainder {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.addTagContainder .input-container {
+    width: 300px;
+}
+
+.videoGeneralInfo {
+    display: flex;
+    width: 100%;
+    padding: 5px 60px;
+}
+
+.videoInfo {
+    flex: 1;
+}
+
+.particularInfo p {
+    color: #7f7f7f;
+    margin: 0;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.particularInfo h4 {
+    margin: 0;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.videoManagement {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+
+.editVisibilitySelect {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 2.5em;
+    border-radius: .25em;
+    overflow: hidden;
+    border: 1px solid #6200ff;
+    margin: 20px;
+    margin-top: 0;
+    margin-right: 0;
+
+}
+
+.editVisibilitySelect select {
+    font-size: 15px;
+}
+
+
+
+.editVisibilitySelect::after {
+    content: '\261F';
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 28px;
+    background-color: #ffffff;
+    transition: .25s all ease;
+    pointer-events: none;
+}
+
+.editVisibilitySelect:hover::after {
+    color: #6200ff;
+}
+
+.editVisibilitySelect option {
+    background-color: whitesmoke;
+    color: #333;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.editVisibilitySelect option:hover {
+    background-color: #6200ff;
+    color: #fff;
+
+}
+
+.addToPlaylistBtn {
+    height: 35px;
+    font-size: 15px;
+    width: 200px;
+    margin: 20px;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+
+
+
+.errorMessage {
+    color: crimson;
+    font-size: small;
+    display: inline-block;
+    margin-top: 6px;
+    max-width: 320px;
+    text-wrap: wrap;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.shake {
+    animation: shake 0.3s ease-in-out;
+}
+
+
+.previewContainer {
+    display: flex;
+}
+
+.thumbnailImg {
+    width: 49%;
+    border-radius: 10px;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.previewInfoBlock {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.previewContainer p {
+    font-size: 15px;
+    color: gray;
+}
+
+.previewInfoBlock .submitBtn {
+    margin-top: 50px;
+    font-size: 19px;
+    align-self: center;
+    justify-self: center;
+}
+
+
+.centerP {
+    align-self: center;
+}
+
+
+.addingToPlaylistForm {
+    width: 18vw;
+    height: auto;
+    margin: 30px;
+    overflow-y: auto;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 20px 50px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.617);
+    border: 1px solid black;
+}
+
+.addingToPlaylistForm h2 {
+    margin-bottom: 35px;
+}
+
+
+.playlistContainer {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+
+}
+
+.playlistItem {
+    display: flex;
+    gap: 10px;
+    font-size: 1em;
+    cursor: pointer;
+
+}
+.playlistItem span{
+    overflow: hidden;
+    width: 150px;
+}
+
+.playlistItem input[type="checkbox"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.playlistItem input[type="checkbox"]:checked {
+    background-color: #8c62ff;
+    border-color: #6200ff;
+    box-shadow: 0px 0px 2px #6200ff;
+}
+
+.okBtnCont {
+    height: 30px;
+    margin-top: 35px;
+    justify-content: center;
+}
+
+.okBtnCont button {
+    height: 30px;
+}

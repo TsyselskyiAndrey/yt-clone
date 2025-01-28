@@ -1,0 +1,70 @@
+.centeredMain{
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.centeredMainContentContainer{
+    padding: 20px 250px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bigChannelContainer{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.bigChannelLogo{
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+}
+
+.bigChannelInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.bigChannelInfo p {
+    margin: 0;
+}
+
+.bigChannelTitle{
+    font-size: 18px;
+
+}
+
+.channelStats{
+    font-size: 13px;
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    hyphens: manual;
+}
+
+.bigChannelContainer .channelBtns{
+    display: flex;
+    align-items: center;
+}
+
+.bigChannelContainer .channelBtns .submitBtn{
+    margin-left: 5px;
+}
+
+.centeredMainContentContainer h1{
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

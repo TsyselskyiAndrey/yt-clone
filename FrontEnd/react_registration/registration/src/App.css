@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  overflow-y: hidden;
+  font-family: sans-serif;
+  background-image: linear-gradient(145deg,
+      hsl(276deg 82% 58%) 0%,
+      hsl(273deg 71% 54%) 8%,
+      hsl(271deg 61% 51%) 17%,
+      hsl(269deg 59% 47%) 25%,
+      hsl(266deg 59% 43%) 33%,
+      hsl(264deg 59% 39%) 42%,
+      hsl(261deg 59% 35%) 50%,
+      hsl(258deg 59% 32%) 58%,
+      hsl(256deg 60% 28%) 67%,
+      hsl(252deg 61% 24%) 75%,
+      hsl(249deg 63% 20%) 83%,
+      hsl(246deg 66% 16%) 92%,
+      hsl(250deg 83% 12%) 100%);
+}
+
+*::selection {
+  background-color: rgb(111, 0, 255);
+  color: white;
+}
+
+.prevent-select {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dad6e1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #8979b1;
+}
+
+
+.blackbg {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  background-color: #00000044;
+  justify-content: center;
+  align-items: center;
+}
