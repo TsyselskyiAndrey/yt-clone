@@ -1,0 +1,1298 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\historyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\historyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\controllers\\mediacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\controllers\\channelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\data\\sqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\data\\sqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\models\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\controllers\\commentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\channelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\channelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\channelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\channelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\registerstep2model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\registerstep2model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\inotificationtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\inotificationtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\notificationtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\notificationtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\searchfiltersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\searchfiltersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\videofiltersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\videofiltersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\videomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\videomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\playlistfiltersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\playlistfiltersmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\ihistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\ihistoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\models\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\models\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\ivideostatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\ivideostatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\models\\commentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\models\\commentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\videoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\videoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\commentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\commentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\tagmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\tagmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\commentstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\commentstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\icommentstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\icommentstatusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\models\\videostatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\models\\videostatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\tagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\playlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\playlistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\isubscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\isubscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\itagservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\ivideoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\ivideoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\ichannelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\ichannelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\iplaylistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\iplaylistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\helpers\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\helpers\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\customvalidations\\customsurnamevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\customvalidations\\customsurnamevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\customvalidations\\custompasswordvalidationattribute .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\customvalidations\\custompasswordvalidationattribute .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\customvalidations\\customnamevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\customvalidations\\customnamevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\customvalidations\\customdatevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\customvalidations\\customdatevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\customvalidations\\customcodevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\customvalidations\\customcodevalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\googlemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\googlemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\tokenmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\registerstep1model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\registerstep1model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\dtos\\registerstep3model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\dtos\\registerstep3model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112014056_InitialUserContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VibeoServer\\Migrations\\20241112014056_InitialUserContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112013934_InitialUserContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VibeoServer\\Migrations\\20241112013934_InitialUserContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112013809_InitialUserContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VibeoServer\\Migrations\\20241112013809_InitialUserContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112013712_InitialUserContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VibeoServer\\Migrations\\20241112013712_InitialUserContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112013413_UserModelUpdateMigration3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VibeoServer\\Migrations\\20241112013413_UserModelUpdateMigration3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241112012757_VideoContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VibeoServer\\Migrations\\Video\\20241112012757_VideoContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241112002657_VideoContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VibeoServer\\Migrations\\Video\\20241112002657_VideoContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241111235429_VideoContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VibeoServer\\Migrations\\Video\\20241111235429_VideoContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241111235028_VideoContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VibeoServer\\Migrations\\Video\\20241111235028_VideoContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241111234138_VideoContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VibeoServer\\Migrations\\Video\\20241111234138_VideoContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241111233738_VideoContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VibeoServer\\Migrations\\Video\\20241111233738_VideoContextMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\models\\notificationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\models\\notificationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\helpers\\customresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\helpers\\customresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|e:\\it step\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0431\u0434\\vibeoserver\\vibeoserver\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FB69A2-FCEC-4D88-B02E-824A6B9BBA54}|VibeoServer\\VibeoServer.csproj|solutionrelative:vibeoserver\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 221,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MediaController.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Controllers\\MediaController.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Controllers\\MediaController.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Controllers\\MediaController.cs",
+              "RelativeToolTip": "VibeoServer\\Controllers\\MediaController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAYwG0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T13:35:01.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "VibeoServer\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAIgBAAAAAAAAAAAmwBkCAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:50:13.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Video.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\Video.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Models\\Video.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\Video.cs",
+              "RelativeToolTip": "VibeoServer\\Models\\Video.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T19:23:32.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChannelController.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Controllers\\ChannelController.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Controllers\\ChannelController.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Controllers\\ChannelController.cs",
+              "RelativeToolTip": "VibeoServer\\Controllers\\ChannelController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwDkBAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T11:03:14.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SqlDbContext.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Data\\SqlDbContext.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Data\\SqlDbContext.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Data\\SqlDbContext.cs",
+              "RelativeToolTip": "VibeoServer\\Data\\SqlDbContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwCgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:13:41.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChannelModel.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\ChannelModel.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\ChannelModel.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\ChannelModel.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\ChannelModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T11:35:25.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContentController.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Controllers\\ContentController.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Controllers\\ContentController.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Controllers\\ContentController.cs",
+              "RelativeToolTip": "VibeoServer\\Controllers\\ContentController.cs",
+              "ViewState": "AgIAALoFAAAAAAAAAAAAALcDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T22:59:19.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JWTService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\JWTService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\JWTService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\JWTService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\JWTService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T21:57:44.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HistoryService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\HistoryService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\HistoryService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\HistoryService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\HistoryService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwDYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:20:55.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\EmailService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\EmailService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:35:19.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChannelService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\ChannelService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\ChannelService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\ChannelService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\ChannelService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T11:05:44.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlaylistController.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Controllers\\PlaylistController.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Controllers\\PlaylistController.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Controllers\\PlaylistController.cs",
+              "RelativeToolTip": "VibeoServer\\Controllers\\PlaylistController.cs",
+              "ViewState": "AgIAAJgCAAAAAAAAAAAkwDsDAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:32:04.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Program.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Program.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Program.cs",
+              "RelativeToolTip": "VibeoServer\\Program.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAIcAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T13:51:12.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommentsController.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Controllers\\CommentsController.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Controllers\\CommentsController.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Controllers\\CommentsController.cs",
+              "RelativeToolTip": "VibeoServer\\Controllers\\CommentsController.cs",
+              "ViewState": "AgIAAMQBAAAAAAAAAAAuwMwBAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T22:51:32.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "INotificationTypeService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\INotificationTypeService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\INotificationTypeService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\INotificationTypeService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\INotificationTypeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T22:44:45.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VideoFiltersModel.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\VideoFiltersModel.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\VideoFiltersModel.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\VideoFiltersModel.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\VideoFiltersModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T16:20:58.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterStep2Model.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\RegisterStep2Model.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\RegisterStep2Model.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\RegisterStep2Model.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\RegisterStep2Model.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:01:53.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\NotificationService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\NotificationService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\NotificationService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wDoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:42:36.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NotificationTypeService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\NotificationTypeService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\NotificationTypeService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\NotificationTypeService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\NotificationTypeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T22:45:58.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PlaylistFiltersModel.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\PlaylistFiltersModel.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\PlaylistFiltersModel.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\PlaylistFiltersModel.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\PlaylistFiltersModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:34:23.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VideoModel.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\VideoModel.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\VideoModel.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\VideoModel.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\VideoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:11:57.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\INotificationService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\INotificationService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\INotificationService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:17:34.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "VideoService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\VideoService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\VideoService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\VideoService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\VideoService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwDYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T15:25:27.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SearchFiltersModel.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\SearchFiltersModel.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\SearchFiltersModel.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\SearchFiltersModel.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\SearchFiltersModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:25:54.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "History.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\History.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Models\\History.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\History.cs",
+              "RelativeToolTip": "VibeoServer\\Models\\History.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:52:43.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IHistoryService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IHistoryService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\IHistoryService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IHistoryService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\IHistoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:19:57.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\appsettings.json",
+              "RelativeDocumentMoniker": "VibeoServer\\appsettings.json",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\appsettings.json",
+              "RelativeToolTip": "VibeoServer\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-06T14:14:43.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\CommentService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\CommentService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\CommentService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\CommentService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:11:15.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CommentStatus.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\CommentStatus.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Models\\CommentStatus.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\CommentStatus.cs",
+              "RelativeToolTip": "VibeoServer\\Models\\CommentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T22:28:21.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "VideoStatus.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\VideoStatus.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Models\\VideoStatus.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\VideoStatus.cs",
+              "RelativeToolTip": "VibeoServer\\Models\\VideoStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:42:56.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TagModel.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\TagModel.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\TagModel.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\TagModel.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\TagModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T21:22:10.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IVideoStatusService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IVideoStatusService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\IVideoStatusService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IVideoStatusService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\IVideoStatusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:58:31.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CommentModel.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CommentModel.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\CommentModel.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CommentModel.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\CommentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:59:07.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TagService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\TagService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\TagService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\TagService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\TagService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:58:12.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CommentStatusService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\CommentStatusService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\CommentStatusService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\CommentStatusService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\CommentStatusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T22:54:17.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ICommentStatusService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\ICommentStatusService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\ICommentStatusService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\ICommentStatusService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\ICommentStatusService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T22:54:26.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\CategoryService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\CategoryService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T17:06:07.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SubscriptionService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\SubscriptionService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\SubscriptionService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\SubscriptionService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\SubscriptionService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T15:24:19.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PlaylistService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\PlaylistService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\PlaylistService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\PlaylistService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\PlaylistService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:37:24.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IVideoService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IVideoService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\IVideoService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IVideoService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\IVideoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T10:05:07.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ITagService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\ITagService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\ITagService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\ITagService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\ITagService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:57:42.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IChannelService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IChannelService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\IChannelService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IChannelService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\IChannelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T11:04:59.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ISubscriptionService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\ISubscriptionService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\ISubscriptionService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\ISubscriptionService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\ISubscriptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T10:39:38.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T17:05:02.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IPlaylistService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IPlaylistService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\IPlaylistService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IPlaylistService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\IPlaylistService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T14:36:26.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\ICommentService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\ICommentService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\ICommentService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\ICommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:09:12.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\Subscription.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Models\\Subscription.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\Subscription.cs",
+              "RelativeToolTip": "VibeoServer\\Models\\Subscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T17:37:27.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Playlist.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\Playlist.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Models\\Playlist.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\Playlist.cs",
+              "RelativeToolTip": "VibeoServer\\Models\\Playlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T11:42:23.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Helpers\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Helpers\\EmailSettings.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Helpers\\EmailSettings.cs",
+              "RelativeToolTip": "VibeoServer\\Helpers\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:37:44.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CustomSurnameValidationAttribute.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CustomValidations\\CustomSurnameValidationAttribute.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\CustomValidations\\CustomSurnameValidationAttribute.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CustomValidations\\CustomSurnameValidationAttribute.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\CustomValidations\\CustomSurnameValidationAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T21:57:14.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CustomPasswordValidationAttribute .cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CustomValidations\\CustomPasswordValidationAttribute .cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\CustomValidations\\CustomPasswordValidationAttribute .cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CustomValidations\\CustomPasswordValidationAttribute .cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\CustomValidations\\CustomPasswordValidationAttribute .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T21:57:11.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CustomCodeValidationAttribute.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CustomValidations\\CustomCodeValidationAttribute.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\CustomValidations\\CustomCodeValidationAttribute.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CustomValidations\\CustomCodeValidationAttribute.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\CustomValidations\\CustomCodeValidationAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:12:47.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CustomDateValidationAttribute.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CustomValidations\\CustomDateValidationAttribute.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\CustomValidations\\CustomDateValidationAttribute.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CustomValidations\\CustomDateValidationAttribute.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\CustomValidations\\CustomDateValidationAttribute.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T18:45:10.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CustomNameValidationAttribute.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CustomValidations\\CustomNameValidationAttribute.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\CustomValidations\\CustomNameValidationAttribute.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CustomValidations\\CustomNameValidationAttribute.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\CustomValidations\\CustomNameValidationAttribute.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T18:34:14.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "LogInModel.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\LogInModel.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\LogInModel.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\LogInModel.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\LogInModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T19:04:53.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "GoogleModel.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\GoogleModel.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\GoogleModel.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\GoogleModel.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\GoogleModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:27:38.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\CategoryModel.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\CategoryModel.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\CategoryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T21:20:11.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "TokenModel.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\TokenModel.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\TokenModel.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\TokenModel.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\TokenModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T20:38:33.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "RegisterStep1Model.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\RegisterStep1Model.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\RegisterStep1Model.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\RegisterStep1Model.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\RegisterStep1Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:01:11.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "web.config",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\web.config",
+              "RelativeDocumentMoniker": "VibeoServer\\web.config",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\web.config",
+              "RelativeToolTip": "VibeoServer\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-16T18:19:30.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "VibeoServer\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "VibeoServer\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-06T17:03:20.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "RegisterStep3Model.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\RegisterStep3Model.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\DTOs\\RegisterStep3Model.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\DTOs\\RegisterStep3Model.cs",
+              "RelativeToolTip": "VibeoServer\\DTOs\\RegisterStep3Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:11:56.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20241112014056_InitialUserContextMigration.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112014056_InitialUserContextMigration.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Migrations\\20241112014056_InitialUserContextMigration.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112014056_InitialUserContextMigration.cs",
+              "RelativeToolTip": "VibeoServer\\Migrations\\20241112014056_InitialUserContextMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:40:56.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20241112013934_InitialUserContextMigration.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112013934_InitialUserContextMigration.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Migrations\\20241112013934_InitialUserContextMigration.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112013934_InitialUserContextMigration.cs",
+              "RelativeToolTip": "VibeoServer\\Migrations\\20241112013934_InitialUserContextMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:39:34.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20241112013809_InitialUserContextMigration.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112013809_InitialUserContextMigration.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Migrations\\20241112013809_InitialUserContextMigration.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112013809_InitialUserContextMigration.cs",
+              "RelativeToolTip": "VibeoServer\\Migrations\\20241112013809_InitialUserContextMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:38:09.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "20241112013712_InitialUserContextMigration.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112013712_InitialUserContextMigration.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Migrations\\20241112013712_InitialUserContextMigration.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112013712_InitialUserContextMigration.cs",
+              "RelativeToolTip": "VibeoServer\\Migrations\\20241112013712_InitialUserContextMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:37:12.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20241112013413_UserModelUpdateMigration3.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112013413_UserModelUpdateMigration3.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Migrations\\20241112013413_UserModelUpdateMigration3.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\20241112013413_UserModelUpdateMigration3.cs",
+              "RelativeToolTip": "VibeoServer\\Migrations\\20241112013413_UserModelUpdateMigration3.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:34:13.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20241112012757_VideoContextMigration.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241112012757_VideoContextMigration.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Migrations\\Video\\20241112012757_VideoContextMigration.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241112012757_VideoContextMigration.cs",
+              "RelativeToolTip": "VibeoServer\\Migrations\\Video\\20241112012757_VideoContextMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:27:57.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20241112002657_VideoContextMigration.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241112002657_VideoContextMigration.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Migrations\\Video\\20241112002657_VideoContextMigration.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241112002657_VideoContextMigration.cs",
+              "RelativeToolTip": "VibeoServer\\Migrations\\Video\\20241112002657_VideoContextMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T00:26:57.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20241111235429_VideoContextMigration.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241111235429_VideoContextMigration.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Migrations\\Video\\20241111235429_VideoContextMigration.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241111235429_VideoContextMigration.cs",
+              "RelativeToolTip": "VibeoServer\\Migrations\\Video\\20241111235429_VideoContextMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:54:29.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "20241111235028_VideoContextMigration.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241111235028_VideoContextMigration.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Migrations\\Video\\20241111235028_VideoContextMigration.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241111235028_VideoContextMigration.cs",
+              "RelativeToolTip": "VibeoServer\\Migrations\\Video\\20241111235028_VideoContextMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:50:28.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Models\\Notification.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\Notification.cs",
+              "RelativeToolTip": "VibeoServer\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T22:51:24.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "20241111234138_VideoContextMigration.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241111234138_VideoContextMigration.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Migrations\\Video\\20241111234138_VideoContextMigration.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241111234138_VideoContextMigration.cs",
+              "RelativeToolTip": "VibeoServer\\Migrations\\Video\\20241111234138_VideoContextMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:41:38.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "20241111233738_VideoContextMigration.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241111233738_VideoContextMigration.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Migrations\\Video\\20241111233738_VideoContextMigration.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Migrations\\Video\\20241111233738_VideoContextMigration.cs",
+              "RelativeToolTip": "VibeoServer\\Migrations\\Video\\20241111233738_VideoContextMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:37:38.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "NotificationType.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\NotificationType.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Models\\NotificationType.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\NotificationType.cs",
+              "RelativeToolTip": "VibeoServer\\Models\\NotificationType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T22:49:01.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Models\\Tag.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\Tag.cs",
+              "RelativeToolTip": "VibeoServer\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:03:17.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Models\\Category.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Models\\Category.cs",
+              "RelativeToolTip": "VibeoServer\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:07:41.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "IJWTService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IJWTService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\IJWTService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IJWTService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\IJWTService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T17:41:40.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "CustomResponse.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Helpers\\CustomResponse.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Helpers\\CustomResponse.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Helpers\\CustomResponse.cs",
+              "RelativeToolTip": "VibeoServer\\Helpers\\CustomResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T20:37:48.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "VibeoServer\\Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "E:\\IT STEP\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F \u0411\u0414\\VibeoServer\\VibeoServer\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "VibeoServer\\Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T10:33:15.297Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

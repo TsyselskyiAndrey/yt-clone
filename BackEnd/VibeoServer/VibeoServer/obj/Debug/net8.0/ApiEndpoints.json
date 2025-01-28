@@ -1,0 +1,1538 @@
+[
+  {
+    "ContainingType": "VibeoServer.Controllers.AuthController",
+    "Method": "GoogleResponse",
+    "RelativePath": "api/Auth/google-response",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "googleResponse",
+        "Type": "VibeoServer.DTOs.GoogleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.AuthController",
+    "Method": "Haschannel",
+    "RelativePath": "api/Auth/haschannel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.LogInModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/Auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Auth/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tokenModel",
+        "Type": "VibeoServer.DTOs.TokenModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.AuthController",
+    "Method": "RegisterStep1",
+    "RelativePath": "api/Auth/register-step1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.RegisterStep1Model",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.AuthController",
+    "Method": "RegisterStep2",
+    "RelativePath": "api/Auth/register-step2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.RegisterStep2Model",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.AuthController",
+    "Method": "RegisterStep3",
+    "RelativePath": "api/Auth/register-step3",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.RegisterStep3Model",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ChannelController",
+    "Method": "CreateChannel",
+    "RelativePath": "api/Channel/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.ChannelModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ChannelController",
+    "Method": "DeleteChannel",
+    "RelativePath": "api/Channel/deletechannel",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ChannelController",
+    "Method": "GetGeneralStats",
+    "RelativePath": "api/Channel/generalchannelstats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ChannelController",
+    "Method": "GetChannel",
+    "RelativePath": "api/Channel/getchannel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ChannelController",
+    "Method": "GetPeriodicStats",
+    "RelativePath": "api/Channel/periodicchannelstats/{period}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "period",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ChannelController",
+    "Method": "UpdateChannel",
+    "RelativePath": "api/Channel/updatechannel",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.ChannelModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ChannelController",
+    "Method": "AddLogo",
+    "RelativePath": "api/Channel/uploadlogo",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.CommentsController",
+    "Method": "AddComment",
+    "RelativePath": "api/Comments/addcomment/{videoId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.CommentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.CommentsController",
+    "Method": "DeleteComment",
+    "RelativePath": "api/Comments/deletecomment/{commentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.CommentsController",
+    "Method": "DislikeComment",
+    "RelativePath": "api/Comments/dislike/{commentId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.CommentsController",
+    "Method": "GetComments",
+    "RelativePath": "api/Comments/getcomments/{videoId}/{sortOption}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sortOption",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.CommentsController",
+    "Method": "LikeComment",
+    "RelativePath": "api/Comments/like/{commentId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.CommentsController",
+    "Method": "ReplyToComment",
+    "RelativePath": "api/Comments/replytocomment/{commentId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.CommentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.CommentsController",
+    "Method": "UpdateComment",
+    "RelativePath": "api/Comments/updatecomment/{commentId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "commentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.CommentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "AddCategory",
+    "RelativePath": "api/Content/addcategory/{videoId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.CategoryModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "AddTag",
+    "RelativePath": "api/Content/addtag/{videoId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.TagModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "ChangeVideoVisibility",
+    "RelativePath": "api/Content/changevisibility/{videoId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "GetChannelVideosReport",
+    "RelativePath": "api/Content/channelvideosreport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "DeleteCategory",
+    "RelativePath": "api/Content/deletecategory/{videoId}/{categoryId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "DeleteTag",
+    "RelativePath": "api/Content/deletetag/{videoId}/{tagId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tagId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "DeleteVideo",
+    "RelativePath": "api/Content/deletevideo/{videoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "GetGeneralStats",
+    "RelativePath": "api/Content/generalvideostats/{videoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Content/getcategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "GetVideo",
+    "RelativePath": "api/Content/getvideo/{videoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "GetVideosByChannel",
+    "RelativePath": "api/Content/mychannelvideos/{sortmethod}/{isAscending}/{searchValue}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sortMethod",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "isAscending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchValue",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PublicationDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VideoFormat",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Duration",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Likes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Views",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Visibility",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "GetPeriodicStats",
+    "RelativePath": "api/Content/periodicvideostats/{videoId}/{period}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "period",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "UpdateVideo",
+    "RelativePath": "api/Content/updatevideo/{videoId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.VideoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "UploadVideo",
+    "RelativePath": "api/Content/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "AddPreview",
+    "RelativePath": "api/Content/uploadpreview/{videoId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "GetVideoCommentsReport",
+    "RelativePath": "api/Content/videocommentsreport/{videoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.ContentController",
+    "Method": "StreamVideo",
+    "RelativePath": "api/Content/watch/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetCategoryVideos",
+    "RelativePath": "api/Media/categoryvideos/{categoryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetChannelPlaylists",
+    "RelativePath": "api/Media/channelplaylists/{channelId}/{sortOption}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "channelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sortOption",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "PublicationDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastUpdated",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VideoCount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Visibility",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetChannelVideos",
+    "RelativePath": "api/Media/channelvideos/{channelId}/{sortOption}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "channelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sortOption",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "PublicationDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VideoFormat",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Duration",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Likes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Views",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Visibility",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "DislikeVideo",
+    "RelativePath": "api/Media/dislike/{videoId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "FavoriteVideo",
+    "RelativePath": "api/Media/favorite/{videoId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetFavoriteVideos",
+    "RelativePath": "api/Media/favoritevideos/{sortOption}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sortOption",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetGeneralStats",
+    "RelativePath": "api/Media/generalprofilestats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetChannel",
+    "RelativePath": "api/Media/getchannel/{channelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "channelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetPlaylistPlayerInfo",
+    "RelativePath": "api/Media/getplaylistplayerinfo/{playlistId}/{sortOption}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sortOption",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "getPrivate",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetVideo",
+    "RelativePath": "api/Media/getvideo/{videoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetHistoryVideos",
+    "RelativePath": "api/Media/historyvideos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetHomePlaylists",
+    "RelativePath": "api/Media/homeplaylists",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetHomeVideos",
+    "RelativePath": "api/Media/homevideos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "LikeVideo",
+    "RelativePath": "api/Media/like/{videoId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetLikedVideos",
+    "RelativePath": "api/Media/likedvideos/{sortOption}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sortOption",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetNotifications",
+    "RelativePath": "api/Media/notifications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetPeriodicStats",
+    "RelativePath": "api/Media/periodicprofilestats/{period}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "period",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetProfile",
+    "RelativePath": "api/Media/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "ReadNotification",
+    "RelativePath": "api/Media/readnotification/{notificationId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "ReceiveNotifications",
+    "RelativePath": "api/Media/receivenotifications/{channelId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "channelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetRecommendedVideos",
+    "RelativePath": "api/Media/recommendedvideos/{videoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "RemoveFavoriteVideo",
+    "RelativePath": "api/Media/removefromfavorite/{videoId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "RemoveWatchLaterVideo",
+    "RelativePath": "api/Media/removefromwatchlater/{videoId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetSearchResults",
+    "RelativePath": "api/Media/searchresults/{searchValue}/{searchType}/{sortOption}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchValue",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "searchType",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "sortOption",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "PublicationDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Duration",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Views",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Likes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastUpdated",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VideoCount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CreationDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Subscribers",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "Subscribe",
+    "RelativePath": "api/Media/subscribe/{channelId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "channelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetSubChannels",
+    "RelativePath": "api/Media/subscriptionchannels/{sortOption}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sortOption",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetSubVideos",
+    "RelativePath": "api/Media/subscriptionvideos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Media/updateprofile",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.RegisterStep2Model",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "AddAvatar",
+    "RelativePath": "api/Media/uploadavatar",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "WatchLaterVideo",
+    "RelativePath": "api/Media/watchlater/{videoId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.MediaController",
+    "Method": "GetWatchLaterVideos",
+    "RelativePath": "api/Media/watchlatervideos/{sortOption}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sortOption",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.PlaylistController",
+    "Method": "AddRemoveVideo",
+    "RelativePath": "api/Playlist/addremovevideo/{playlistId}/{videoId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.PlaylistController",
+    "Method": "ChangeVideoVisibility",
+    "RelativePath": "api/Playlist/changevisibility/{playlistId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.PlaylistController",
+    "Method": "CreatePlaylist",
+    "RelativePath": "api/Playlist/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.PlaylistModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.PlaylistController",
+    "Method": "DeletePlaylist",
+    "RelativePath": "api/Playlist/deleteplaylist/{playlistId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.PlaylistController",
+    "Method": "GetPlaylist",
+    "RelativePath": "api/Playlist/getplaylist/{playlistId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.PlaylistController",
+    "Method": "GetPlaylistVideos",
+    "RelativePath": "api/Playlist/getplaylistvideos/{playlistId}/{sortmethod}/{isAscending}/{searchValue}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sortMethod",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "isAscending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchValue",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PublicationDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VideoFormat",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Duration",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Likes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Size",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Views",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Visibility",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Category",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.PlaylistController",
+    "Method": "GetVideoPlaylists",
+    "RelativePath": "api/Playlist/getvideoplaylists/{videoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.PlaylistController",
+    "Method": "GetPlaylistsByChannel",
+    "RelativePath": "api/Playlist/mychannelplaylists/{sortmethod}/{isAscending}/{searchValuePlaylist}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sortMethod",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "isAscending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchValuePlaylist",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PublicationDate",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastUpdated",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VideoCount",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Visibility",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.PlaylistController",
+    "Method": "RemoveVideo",
+    "RelativePath": "api/Playlist/removevideofromplaylist/{playlistId}/{videoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VibeoServer.Controllers.PlaylistController",
+    "Method": "UpdatePlaylist",
+    "RelativePath": "api/Playlist/updateplaylist/{playlistId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "playlistId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "VibeoServer.DTOs.PlaylistModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
